@@ -8,9 +8,7 @@ This MATLAB application is designed to analyze meteorological parameters, such a
 
 <h2> Usage </h2>
 
-Running "medicanes.m" will open a GUI where you can select the time based on the GRIB1 files, that you want to analyze. The application will then extract the necessary parameters and use Hart's methodology to identify medicane characteristics, such as the cyclone's location and intensity.
-
-The purpose of this application is to provide an easy way to visualize Medicane charasteristics from GRIB1 files. To use the application, open the main MATLAB script called "medicanes.m" and run it. When the script is executed, it will open a graphical user interface (GUI) that allows you to visualize the contents of the GRIB1 files. This application has been tested on Windows 10 64 platforms (Linux has not been tested yet, but probably no need for major modifications).
+The purpose of this application is to provide an easy way to visualize Medicane charasteristics from GRIB1 files. Running "medicanes.m" will open a GUI where you can select the time based on the GRIB1 files, that you want to analyze. The application will then extract the necessary parameters and use Hart's methodology to identify medicane characteristics, such as the cyclone's location and intensity. This application has been tested on Windows 10 64 platforms (Linux has not been tested yet, but probably no need for major modifications).
 
 The INPUT_GRIB directory is a required component of the application, as it contains files with the same projection, in order for them to be read correctly. Additionally, the GRIB files must have a ".grb" extension (e.g. "test.grb") in order to be recognized by the application. All of the files contained in INPUT_GRIB directory must be a) of the same run and has multiple forecasts, or b) has only analyses without any forecasts, as you cannot select model etc. If needed to change grib files, just replace them and re-run. This application has been tested with MATLAB versions 16b and 17a.
 
