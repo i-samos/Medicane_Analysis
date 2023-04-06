@@ -3,6 +3,8 @@ Extracts the necessary parameters from the file and uses Hart's method to identi
 This MATLAB application is designed to analyze GRIB1 edition files in order to identify medicane characteristics based on Hart (2003) A Cyclone Phase Space Derived from Thermal Wind and Thermal Asymmetry
 (https://doi.org/10.1175/1520-0493(2003)131%3C0585:ACPSDF%3E2.0.CO;2).
 
+![Example Image](https://github.com/i-samos/Medicane_Analysis/blob/main/medicanes_icon.png)
+
 Installation
 To use this application, you will need to have MATLAB installed on your computer. Simply download the source code from this repository and open the main MATLAB script called "medicanes.m" to get started. 
 
