@@ -1,4 +1,6 @@
-# Medicane_Analysis
+<h1> Medicane_Analysis </h1>
+<h2> A MATLAB Application for Visualizing Meteorological Parameters </h2>
+
 Extracts the necessary parameters from the file and uses Hart's method to identify the cyclone's location and intensity. It is designed for scientific purposes, including publishing in scientific journals.
 This MATLAB application is designed to analyze GRIB1 edition files in order to identify medicane characteristics based on Hart (2003) A Cyclone Phase Space Derived from Thermal Wind and Thermal Asymmetry
 (https://doi.org/10.1175/1520-0493(2003)131%3C0585:ACPSDF%3E2.0.CO;2).
@@ -23,10 +25,6 @@ Future Work
 In the future, we plan to expand this application to include support for additional file formats, such as GRIB2. We also plan to add more advanced features, such as the ability to generate reports and export results in various formats.
 
 
-<h1> GRIB1 Viewer </h1>
-<h2> A MATLAB Application for Visualizing Meteorological Parameters </h2>
-
-![Example Image](https://github.com/i-samos/GRIB_1_Viewer/blob/main/Windows%2010/splash.png)
 
 
 This is an application written in MATLAB that can read GRIB1 files and visualize meteorological parameters. Due to size constraints, this application only includes map data for Europe.
