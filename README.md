@@ -1,4 +1,5 @@
-<h1> Medicane_Analysis </h1>
+<h1> Software for Analysis of Medicanes (a.k.a. Mediterranean Cyclones)  </h1>
+
 <h2> A MATLAB Application for Medicane Analysis </h2>
 
 This MATLAB application is designed to analyze meteorological parameters, such as geoheight and mean sea level pressure, in order to identify medicane characteristics based on Hart (2003) A Cyclone Phase Space Derived from Thermal Wind and Thermal Asymmetry
