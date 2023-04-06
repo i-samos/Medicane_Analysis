@@ -274,7 +274,8 @@ end
 axes(handles.axes3);
 PCOLOR_FIGURE_HANDLE6=plot(dzU(1,2:end)/9.81,dzU(2,2:end),'-o');
 set(gca,'YDir','reverse')
-xlim([0 400])
+MX=max(abs(dzU(1,2:end)/9.81));
+xlim([0 2*MX])
 ylim([100 1000])
 grid on
 ylabel('hPa')
@@ -289,8 +290,8 @@ VTL=dzLA/dlnpl;
 [VTL VTU];
 axes(handles.axes4);
 plot(VTL,VTU,'-ro');
-xlim([-300 300])
-ylim([-500 500])
+xlim([-2*max(abs(VTL)) 2*max(abs(VTL))])
+ylim([-2*max(abs(VTU)) 2*max(abs(VTU))])
 grid on
 h2 = line([0 0],[-500  500],'linestyle','-');
 set(h2,'LineWidth',3);
@@ -374,9 +375,9 @@ elseif aa1=='-'
     RESULT_left_lower=t1;
 end
 axes(handles.axes6);
-plot(VTL,(RESULT_right_lower - RESULT_left_lower),'-ro');
-xlim([-300 300])
-ylim([-500 500])
+plot(VTL,(RESULT_right_lower - RESULT_left_lower)/9.81,'-ro');
+xlim([-2*max(abs(VTL)) 2*max(abs(VTL))])
+ylim([-2*abs(RESULT_right_lower - RESULT_left_lower)/9.81 2*abs(RESULT_right_lower - RESULT_left_lower)/9.81])
 grid on
 h2 = line([0 0],[-500  500],'linestyle','-');
 set(h2,'LineWidth',3);
